@@ -1,6 +1,7 @@
 # hxCodec - Native video support for OpenFL & HaxeFlixel
+hxCodec 2.5.1 but it actually compiles on Linux!!! lmao!!
 
-[Original Repository](https://github.com/polybiusproxy/PolyEngine).  
+[Original Repository](https://github.com/polybiusproxy/hxCodec).  
 [Click here to check the roadmap of hxCodec](https://github.com/brightfyregit/Friday-Night-Funkin-Mp4-Video-Support/projects/1).
 
 ## Table of Contents
@@ -14,7 +15,7 @@
 ### 1. Install the Haxelib:
 
 ```cmd
-haxelib git hxCodec https://github.com/polybiusproxy/hxCodec.git
+haxelib git hxCodec https://github.com/swordcube/hxCodec-2.5.1-LINUX
 ```
 
 ### 2. Create a folder called `videos` in `assets/preload` folder:
