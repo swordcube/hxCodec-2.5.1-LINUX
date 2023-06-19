@@ -51,7 +51,9 @@ class MP4Handler extends VlcBitmap
 	#if sys
 	function checkFile(fileName:String):String
 	{
-		#if !android
+		#if linux
+		return Sys.getCwd() + fileName;
+		#elseif !android
 		var pDir = "";
 		var appDir = "file:///" + Sys.getCwd() + "/";
 
